@@ -58,7 +58,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Crypto.en-US.resx">
+      <DependentUpon>Crypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crypto.es.resx">
+      <DependentUpon>Crypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crypto.fr.resx">
+      <DependentUpon>Crypto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Crypto.resx">
+      <DependentUpon>Crypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crypto.ru.resx">
+      <DependentUpon>Crypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crypto.zh-CN.resx">
       <DependentUpon>Crypto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

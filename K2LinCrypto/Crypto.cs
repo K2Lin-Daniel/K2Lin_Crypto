@@ -75,5 +75,10 @@ namespace K2LinCrypto
         {
             dwKeySize = 8192;
         }
+
+        private void CopyEncryptedText_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetData(DataFormats.Text, (Object)EncryptoResult.Text);
+        }
     }
 }

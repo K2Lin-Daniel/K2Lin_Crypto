@@ -59,6 +59,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CopyEncryptedText = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -127,6 +128,7 @@
             // 
             resources.ApplyResources(this.EncryptoResult, "EncryptoResult");
             this.EncryptoResult.Name = "EncryptoResult";
+            this.EncryptoResult.ReadOnly = true;
             // 
             // label7
             // 
@@ -247,10 +249,18 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // CopyEncryptedText
+            // 
+            resources.ApplyResources(this.CopyEncryptedText, "CopyEncryptedText");
+            this.CopyEncryptedText.Name = "CopyEncryptedText";
+            this.CopyEncryptedText.UseVisualStyleBackColor = true;
+            this.CopyEncryptedText.Click += new System.EventHandler(this.CopyEncryptedText_Click);
+            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.CopyEncryptedText);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.Sel8192);
             this.Controls.Add(this.Sel2048);
@@ -323,6 +333,7 @@
         private System.Windows.Forms.RadioButton Sel2048;
         private System.Windows.Forms.RadioButton Sel8192;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button CopyEncryptedText;
     }
 }
 

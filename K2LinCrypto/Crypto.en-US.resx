@@ -175,4 +175,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>K2Lin Cryptography V2</value>
   </data>
+  <data name="CopyEncryptedText.Text" xml:space="preserve">
+    <value>Copy
+Encrypted Text</value>
+  </data>
 </root>

@@ -117,64 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Sel8192.Text" xml:space="preserve">
-    <value>8192 位</value>
-  </data>
-  <data name="Sel4096.Text" xml:space="preserve">
-    <value>4096 位</value>
-  </data>
-  <data name="Sel2048.Text" xml:space="preserve">
-    <value>2048 位</value>
-  </data>
-  <data name="label9.Text" xml:space="preserve">
-    <value>解密文本</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>要解密的文本</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Decryption</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>加密文本</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>接收方的公钥</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>要加密的文本</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Encryption</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>您的公钥</value>
-  </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>唯一 ID:</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>唯一 ID:</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>您的私钥</value>
-  </data>
-  <data name="generate.Text" xml:space="preserve">
-    <value>生成密钥对</value>
-  </data>
-  <data name="EncryptButton.Text" xml:space="preserve">
-    <value>加密!</value>
-  </data>
-  <data name="DecryptButton.Text" xml:space="preserve">
-    <value>解密!</value>
-  </data>
-  <data name="CopyPublicKey.Text" xml:space="preserve">
-    <value>复制公钥</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>K2Lin Cryptography V2</value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Votre clé publique</value>
+  </data>
+  <data name="generate.Text" xml:space="preserve">
+    <value>Générez une paire de clés</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Chiffrement</value>
+  </data>
+  <data name="EncryptButton.Text" xml:space="preserve">
+    <value>chiffrement!</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Le texte à crypter</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>La clé publique du destinataire</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Texte crypté</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Décryptage</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Le texte à décrypter</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Décryptez le texte</value>
+  </data>
+  <data name="DecryptButton.Text" xml:space="preserve">
+    <value>Déchiffrement!</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Votre clé privée</value>
+  </data>
+  <data name="CopyPublicKey.Text" xml:space="preserve">
+    <value>Copiez la clé publique</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>hachage:</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>hachage:</value>
+  </data>
+  <data name="Sel4096.Text" xml:space="preserve">
+    <value>4096 bits</value>
+  </data>
+  <data name="Sel2048.Text" xml:space="preserve">
+    <value>2048 bits</value>
+  </data>
+  <data name="Sel8192.Text" xml:space="preserve">
+    <value>8192 bits</value>
+  </data>
   <data name="CopyEncryptedText.Text" xml:space="preserve">
-    <value>复制加密文本</value>
+    <value>Copiez le texte crypté</value>
   </data>
 </root>
