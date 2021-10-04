@@ -117,14 +117,62 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="K2Lin_Cryptography" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\K2Lin Cryptography.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sel8192.Text" xml:space="preserve">
+    <value>8192 bits</value>
   </data>
-  <data name="lock_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lock-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sel4096.Text" xml:space="preserve">
+    <value>4096 bits</value>
   </data>
-  <data name="unlock_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unlock-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sel2048.Text" xml:space="preserve">
+    <value>2048 bits</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Decrypted Text</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Text to Decrypt</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Decryption</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Encrypted Text</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>PublicKey
+(Receiver)</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Text to Encrypt</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>PublicKey</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Hash ID:</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Hash ID:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>PrivateKey</value>
+  </data>
+  <data name="generate.Text" xml:space="preserve">
+    <value>Generate Keypair</value>
+  </data>
+  <data name="EncryptButton.Text" xml:space="preserve">
+    <value>Encrypt!</value>
+  </data>
+  <data name="DecryptButton.Text" xml:space="preserve">
+    <value>Decrypt!</value>
+  </data>
+  <data name="CopyPublicKey.Text" xml:space="preserve">
+    <value>Copy PublicKey</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>K2Lin Cryptography V2</value>
   </data>
 </root>

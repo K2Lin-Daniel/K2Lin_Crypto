@@ -8,3 +8,16 @@ E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Debug\K2LinCrypto.csproj.CoreCompileIn
 E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Debug\K2LinCrypto.exe
 E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Debug\K2LinCrypto.pdb
 E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Debug\K2LinCrypto.Crypto.resources
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\bin\Debug\K2LinCrypto.exe.config
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\bin\Debug\K2LinCrypto.exe
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\bin\Debug\K2LinCrypto.pdb
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\bin\Debug\zh-CN\K2LinCrypto.resources.dll
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.csprojAssemblyReference.cache
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.Crypto.resources
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.Properties.Resources.resources
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.Crypto.zh-CN.resources
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.csproj.GenerateResource.cache
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.csproj.CoreCompileInputs.cache
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\zh-CN\K2LinCrypto.resources.dll
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.exe
+E:\GEEK tools\K2Lin_Crypto-main\K2LinCrypto\obj\Debug\K2LinCrypto.pdb
