@@ -1,0 +1,10 @@
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\bin\Release\K2LinCrypto.exe.config
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\bin\Release\K2LinCrypto.exe
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\bin\Release\K2LinCrypto.pdb
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.csprojAssemblyReference.cache
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.Properties.Resources.resources
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.csproj.GenerateResource.cache
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.csproj.CoreCompileInputs.cache
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.exe
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.pdb
+E:\GEEK tools\K2LinCrypto\K2LinCrypto\obj\Release\K2LinCrypto.Crypto.resources
