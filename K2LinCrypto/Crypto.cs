@@ -2,6 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace K2LinCrypto
 {
@@ -13,8 +14,20 @@ namespace K2LinCrypto
             RSACryptoServiceProvider csp = new RSACryptoServiceProvider(dwKeySize);
             csp.PersistKeyInCsp = false;
             InitializeComponent();
-            pubkey.Text = csp.ToXmlString(false);
-            privkey.Text = csp.ToXmlString(true);
+            string publickey = csp.ToXmlString(false);
+            string privatekey = csp.ToXmlString(true);
+            XmlDocument PublicKeyXML = new XmlDocument();
+            PublicKeyXML.LoadXml("<K2LinCrypto></K2LinCrypto>");
+            XmlElement PubText = PublicKeyXML.CreateElement("PublicKey");
+            PubText.InnerText = publickey;
+            PublicKeyXML.DocumentElement.AppendChild(PubText);
+            pubkey.Text = PublicKeyXML.OuterXml;
+            XmlDocument PrivateKeyXML = new XmlDocument();
+            PrivateKeyXML.LoadXml("<K2LinCrypto></K2LinCrypto>");
+            XmlElement PrivText = PrivateKeyXML.CreateElement("PrivateKey");
+            PrivText.InnerText = privatekey;
+            PrivateKeyXML.DocumentElement.AppendChild(PrivText);
+            privkey.Text = PrivateKeyXML.OuterXml;
             SelfSessionID.Text = Math.Abs(pubkey.Text.GetHashCode()).ToString();
         }
 
@@ -38,16 +51,47 @@ namespace K2LinCrypto
         private void EncryptButton_Click(object sender, EventArgs e)
         {
             RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
-            rsa.FromXmlString(ReceiverPublic.Text);
+            XmlDocument PublicKeyXML = new XmlDocument();
+            PublicKeyXML.LoadXml(ReceiverPublic.Text);
+            string pubkeypath = "K2LinCrypto/PublicKey";
+            string ReceiverPubkey = PublicKeyXML.SelectSingleNode(pubkeypath).InnerText;
+            rsa.FromXmlString(ReceiverPubkey);
             byte[] data = Encoding.UTF8.GetBytes(EncryptoText.Text);
             byte[] encryptedtext = rsa.Encrypt(data, false);
-            EncryptoResult.Text = Convert.ToBase64String(encryptedtext);
+            XmlDocument EncryptXML = new XmlDocument();
+            EncryptXML.LoadXml("<K2LinCrypto></K2LinCrypto>");
+            XmlElement Text = EncryptXML.CreateElement("EncryptedText");
+            Text.InnerText = Convert.ToBase64String(encryptedtext);
+            EncryptXML.DocumentElement.AppendChild(Text);
+            XmlElement HashID = EncryptXML.CreateElement("HashID");
+            HashID.InnerText = EncryptSessionID.Text;
+            EncryptXML.DocumentElement.AppendChild(HashID);
+            EncryptoResult.Text = EncryptXML.OuterXml;
         }
         private void DecryptButton_Click(object sender, EventArgs e)
         {
+            XmlDocument DecryptXML = new XmlDocument();
+            DecryptXML.LoadXml(DecryptoText.Text);
+            string textpath = "K2LinCrypto/EncryptedText";
+            string DecryptText = DecryptXML.SelectSingleNode(textpath).InnerText;
+            string hashpath = "K2LinCrypto/HashID";
+            string HashID = DecryptXML.SelectSingleNode(hashpath).InnerText;
+            if (HashID != SelfSessionID.Text)
+            {
+                HashIDIncorrect.Visible = true;
+                return;
+            }
+            else
+            {
+                HashIDIncorrect.Visible = false;
+            }
+            XmlDocument PrivateKeyXML = new XmlDocument();
+            PrivateKeyXML.LoadXml(privkey.Text);
+            string privkeypath = "K2LinCrypto/PrivateKey";
+            string Privkey = PrivateKeyXML.SelectSingleNode(privkeypath).InnerText;
             RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
-            rsa.FromXmlString(privkey.Text);
-            byte[] Encryptedtext = Convert.FromBase64String(DecryptoText.Text);
+            rsa.FromXmlString(Privkey);
+            byte[] Encryptedtext = Convert.FromBase64String(DecryptText);
             byte[] decryptedtext = rsa.Decrypt(Encryptedtext, false);
             DecryptoResult.Text = Encoding.UTF8.GetString(decryptedtext);
         }
@@ -105,6 +149,7 @@ namespace K2LinCrypto
                 EncryptoResult.Visible = false;
                 EncryptoText.Visible = false;
                 DecryptoText.Visible = true;
+                HashIDIncorrect.Visible = false;
             }
             else
             {
@@ -128,6 +173,7 @@ namespace K2LinCrypto
                 EncryptoResult.Visible = true;
                 EncryptoText.Visible = true;
                 DecryptoText.Visible = false;
+                HashIDIncorrect.Visible = false;
             }
         }
     }

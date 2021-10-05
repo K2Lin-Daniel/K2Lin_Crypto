@@ -180,4 +180,7 @@
   <data name="SwapMode.Text" xml:space="preserve">
     <value>changer de mode</value>
   </data>
+  <data name="HashIDIncorrect.Text" xml:space="preserve">
+    <value>L'ID de hachage ne correspond pas à votre clé privée, veuillez crypter à nouveau</value>
+  </data>
 </root>

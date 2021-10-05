@@ -180,4 +180,7 @@
   <data name="SwapMode.Text" xml:space="preserve">
     <value>切换模式</value>
   </data>
+  <data name="HashIDIncorrect.Text" xml:space="preserve">
+    <value>唯一ID 与您的私钥不匹配 请重新加密</value>
+  </data>
 </root>

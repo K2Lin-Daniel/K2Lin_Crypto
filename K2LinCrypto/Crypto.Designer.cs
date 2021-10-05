@@ -61,6 +61,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CopyEncryptedText = new System.Windows.Forms.Button();
             this.SwapMode = new System.Windows.Forms.CheckBox();
+            this.HashIDIncorrect = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -264,10 +265,17 @@
             this.SwapMode.UseVisualStyleBackColor = true;
             this.SwapMode.CheckedChanged += new System.EventHandler(this.SwapMode_CheckedChanged);
             // 
+            // HashIDIncorrect
+            // 
+            resources.ApplyResources(this.HashIDIncorrect, "HashIDIncorrect");
+            this.HashIDIncorrect.ForeColor = System.Drawing.Color.Red;
+            this.HashIDIncorrect.Name = "HashIDIncorrect";
+            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.HashIDIncorrect);
             this.Controls.Add(this.SwapMode);
             this.Controls.Add(this.CopyEncryptedText);
             this.Controls.Add(this.pictureBox3);
@@ -344,6 +352,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button CopyEncryptedText;
         private System.Windows.Forms.CheckBox SwapMode;
+        private System.Windows.Forms.Label HashIDIncorrect;
     }
 }
 

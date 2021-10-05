@@ -180,4 +180,7 @@
   <data name="SwapMode.Text" xml:space="preserve">
     <value>изменить режим</value>
   </data>
+  <data name="HashIDIncorrect.Text" xml:space="preserve">
+    <value>Идентификатор хэша не соответствует вашему закрытому ключу, пожалуйста, зашифруйте еще раз</value>
+  </data>
 </root>

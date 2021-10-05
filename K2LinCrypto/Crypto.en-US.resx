@@ -182,4 +182,7 @@ Encrypted Text</value>
   <data name="SwapMode.Text" xml:space="preserve">
     <value>Change Mode</value>
   </data>
+  <data name="HashIDIncorrect.Text" xml:space="preserve">
+    <value>Hash ID does not match your private key please encrypt again</value>
+  </data>
 </root>
