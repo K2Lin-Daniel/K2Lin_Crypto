@@ -80,5 +80,55 @@ namespace K2LinCrypto
         {
             Clipboard.SetData(DataFormats.Text, (Object)EncryptoResult.Text);
         }
+
+        private void SwapMode_CheckedChanged(object sender, EventArgs e)
+        {
+            if (SwapMode.Checked)
+            {
+                // Do something when CheckBox is checked  
+                pictureBox1.Visible = false;
+                pictureBox2.Visible = true;
+                label7.Visible = true;
+                label3.Visible = false;
+                label8.Visible = true;
+                label4.Visible = false;
+                label5.Visible = false;
+                label6.Visible = false;
+                label9.Visible = true;
+                CopyEncryptedText.Visible = false;
+                label11.Visible = false;
+                EncryptSessionID.Visible = false;
+                EncryptButton.Visible = false;
+                DecryptButton.Visible = true;
+                DecryptoResult.Visible = true;
+                ReceiverPublic.Visible = false;
+                EncryptoResult.Visible = false;
+                EncryptoText.Visible = false;
+                DecryptoText.Visible = true;
+            }
+            else
+            {
+                // Do something here when CheckBox is not checked  
+                pictureBox1.Visible = true;
+                pictureBox2.Visible = false;
+                label7.Visible = false;
+                label3.Visible = true;
+                label8.Visible = false;
+                label4.Visible = true;
+                label5.Visible = true;
+                label6.Visible = true;
+                label9.Visible = false;
+                CopyEncryptedText.Visible = true;
+                label11.Visible = true;
+                EncryptSessionID.Visible = true;
+                EncryptButton.Visible = true;
+                DecryptButton.Visible = false;
+                DecryptoResult.Visible = false;
+                ReceiverPublic.Visible = true;
+                EncryptoResult.Visible = true;
+                EncryptoText.Visible = true;
+                DecryptoText.Visible = false;
+            }
+        }
     }
 }

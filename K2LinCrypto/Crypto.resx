@@ -136,7 +136,7 @@
     <value>Vertical</value>
   </data>
   <data name="pubkey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>949, 34</value>
+    <value>948, 34</value>
   </data>
   <data name="pubkey.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pubkey.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>31</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -181,7 +181,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="generate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
@@ -190,7 +190,7 @@
     <value>等线, 10pt</value>
   </data>
   <data name="generate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>801, 95</value>
+    <value>801, 93</value>
   </data>
   <data name="generate.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 43</value>
@@ -211,7 +211,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;generate.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -220,7 +220,7 @@
     <value>等线, 18pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 116</value>
+    <value>87, 158</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
@@ -241,10 +241,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="EncryptoText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 164</value>
+    <value>156, 203</value>
   </data>
   <data name="EncryptoText.Size" type="System.Drawing.Size, System.Drawing">
     <value>895, 22</value>
@@ -262,13 +262,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EncryptoText.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="EncryptButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>等线, 14pt</value>
   </data>
   <data name="EncryptButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>930, 194</value>
+    <value>929, 231</value>
   </data>
   <data name="EncryptButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 34</value>
@@ -289,7 +289,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EncryptButton.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -298,7 +298,7 @@
     <value>等线, 12pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 166</value>
+    <value>40, 205</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -319,7 +319,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -328,7 +328,7 @@
     <value>等线, 12pt</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 194</value>
+    <value>40, 241</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -349,10 +349,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="ReceiverPublic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 192</value>
+    <value>156, 231</value>
   </data>
   <data name="ReceiverPublic.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -376,7 +376,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ReceiverPublic.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -385,7 +385,7 @@
     <value>等线, 12pt</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 234</value>
+    <value>40, 273</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
@@ -406,10 +406,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="EncryptoResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 232</value>
+    <value>156, 271</value>
   </data>
   <data name="EncryptoResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>895, 22</value>
@@ -427,7 +427,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EncryptoResult.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -436,7 +436,7 @@
     <value>等线, 18pt</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 280</value>
+    <value>87, 158</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 25</value>
@@ -446,6 +446,9 @@
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Decryption</value>
+  </data>
+  <data name="label7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -457,7 +460,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -466,7 +469,7 @@
     <value>等线, 12pt</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 331</value>
+    <value>40, 205</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -476,6 +479,9 @@
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>要解密的文本</value>
+  </data>
+  <data name="label8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -487,16 +493,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="DecryptoText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 329</value>
+    <value>156, 203</value>
   </data>
   <data name="DecryptoText.Size" type="System.Drawing.Size, System.Drawing">
     <value>895, 22</value>
   </data>
   <data name="DecryptoText.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="DecryptoText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;DecryptoText.Name" xml:space="preserve">
     <value>DecryptoText</value>
@@ -508,16 +517,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DecryptoText.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="DecryptoResult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 397</value>
+    <value>156, 271</value>
   </data>
   <data name="DecryptoResult.Size" type="System.Drawing.Size, System.Drawing">
     <value>895, 22</value>
   </data>
   <data name="DecryptoResult.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
+  </data>
+  <data name="DecryptoResult.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;DecryptoResult.Name" xml:space="preserve">
     <value>DecryptoResult</value>
@@ -529,7 +541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DecryptoResult.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -538,7 +550,7 @@
     <value>等线, 12pt</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 399</value>
+    <value>40, 273</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
@@ -548,6 +560,9 @@
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>解密文本</value>
+  </data>
+  <data name="label9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
@@ -559,13 +574,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="DecryptButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>等线, 14pt</value>
   </data>
   <data name="DecryptButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>930, 357</value>
+    <value>929, 231</value>
   </data>
   <data name="DecryptButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 34</value>
@@ -575,6 +590,9 @@
   </data>
   <data name="DecryptButton.Text" xml:space="preserve">
     <value>解密!</value>
+  </data>
+  <data name="DecryptButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;DecryptButton.Name" xml:space="preserve">
     <value>DecryptButton</value>
@@ -586,7 +604,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DecryptButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="privkey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>Off</value>
@@ -604,7 +622,7 @@
     <value>Vertical</value>
   </data>
   <data name="privkey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>949, 34</value>
+    <value>948, 34</value>
   </data>
   <data name="privkey.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -619,7 +637,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;privkey.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -649,13 +667,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="CopyPublicKey.Font" type="System.Drawing.Font, System.Drawing">
     <value>等线, 10pt</value>
   </data>
   <data name="CopyPublicKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>930, 95</value>
+    <value>929, 93</value>
   </data>
   <data name="CopyPublicKey.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 43</value>
@@ -676,7 +694,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CopyPublicKey.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -685,7 +703,7 @@
     <value>等线, 9pt</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>746, 204</value>
+    <value>755, 244</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 13</value>
@@ -706,10 +724,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="EncryptSessionID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>809, 199</value>
+    <value>809, 239</value>
   </data>
   <data name="EncryptSessionID.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 22</value>
@@ -727,7 +745,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EncryptSessionID.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="SelfSessionID.Location" type="System.Drawing.Point, System.Drawing">
     <value>680, 95</value>
@@ -748,7 +766,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SelfSessionID.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -778,7 +796,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Sel4096.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -808,7 +826,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Sel4096.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Sel2048.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -838,7 +856,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Sel2048.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Sel8192.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -868,16 +886,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Sel8192.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
   <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>208, 257</value>
+    <value>12, 357</value>
   </data>
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>715, 69</value>
+    <value>1039, 69</value>
   </data>
   <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -892,19 +910,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 257</value>
+    <value>12, 133</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 69</value>
   </data>
   <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
+  </data>
+  <data name="pictureBox2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
@@ -916,7 +937,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -981,7 +1002,7 @@
 </value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 95</value>
+    <value>12, 133</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 69</value>
@@ -999,7 +1020,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="CopyEncryptedText.Font" type="System.Drawing.Font, System.Drawing">
     <value>等线, 10pt</value>
@@ -1008,7 +1029,7 @@
     <value>NoControl</value>
   </data>
   <data name="CopyEncryptedText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>930, 260</value>
+    <value>929, 299</value>
   </data>
   <data name="CopyEncryptedText.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 43</value>
@@ -1029,6 +1050,39 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CopyEncryptedText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SwapMode.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="SwapMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SwapMode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>等线, 10pt</value>
+  </data>
+  <data name="SwapMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 100</value>
+  </data>
+  <data name="SwapMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 24</value>
+  </data>
+  <data name="SwapMode.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="SwapMode.Text" xml:space="preserve">
+    <value>切换模式</value>
+  </data>
+  <data name="&gt;&gt;SwapMode.Name" xml:space="preserve">
+    <value>SwapMode</value>
+  </data>
+  <data name="&gt;&gt;SwapMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SwapMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SwapMode.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -3856,8 +3910,7 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>K2Lin Cryptography V2</value>
-    
+    <value>K2Lin Cryptography V3</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Crypto</value>

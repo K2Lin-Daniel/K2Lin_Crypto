@@ -60,6 +60,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CopyEncryptedText = new System.Windows.Forms.Button();
+            this.SwapMode = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -256,10 +257,18 @@
             this.CopyEncryptedText.UseVisualStyleBackColor = true;
             this.CopyEncryptedText.Click += new System.EventHandler(this.CopyEncryptedText_Click);
             // 
+            // SwapMode
+            // 
+            resources.ApplyResources(this.SwapMode, "SwapMode");
+            this.SwapMode.Name = "SwapMode";
+            this.SwapMode.UseVisualStyleBackColor = true;
+            this.SwapMode.CheckedChanged += new System.EventHandler(this.SwapMode_CheckedChanged);
+            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.SwapMode);
             this.Controls.Add(this.CopyEncryptedText);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.Sel8192);
@@ -334,6 +343,7 @@
         private System.Windows.Forms.RadioButton Sel8192;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button CopyEncryptedText;
+        private System.Windows.Forms.CheckBox SwapMode;
     }
 }
 

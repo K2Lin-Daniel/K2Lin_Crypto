@@ -173,10 +173,13 @@
     <value>Copy PublicKey</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>K2Lin Cryptography V2</value>
+    <value>K2Lin Cryptography V3</value>
   </data>
   <data name="CopyEncryptedText.Text" xml:space="preserve">
     <value>Copy
 Encrypted Text</value>
+  </data>
+  <data name="SwapMode.Text" xml:space="preserve">
+    <value>Change Mode</value>
   </data>
 </root>
