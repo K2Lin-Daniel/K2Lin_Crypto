@@ -44,8 +44,20 @@ namespace K2LinCrypto
         {
             RSACryptoServiceProvider csp = new RSACryptoServiceProvider(dwKeySize);
             csp.PersistKeyInCsp = false;
-            pubkey.Text = csp.ToXmlString(false);
-            privkey.Text = csp.ToXmlString(true);
+            string publickey = csp.ToXmlString(false);
+            string privatekey = csp.ToXmlString(true);
+            XmlDocument PublicKeyXML = new XmlDocument();
+            PublicKeyXML.LoadXml("<K2LinCrypto></K2LinCrypto>");
+            XmlElement PubText = PublicKeyXML.CreateElement("PublicKey");
+            PubText.InnerText = publickey;
+            PublicKeyXML.DocumentElement.AppendChild(PubText);
+            pubkey.Text = PublicKeyXML.OuterXml;
+            XmlDocument PrivateKeyXML = new XmlDocument();
+            PrivateKeyXML.LoadXml("<K2LinCrypto></K2LinCrypto>");
+            XmlElement PrivText = PrivateKeyXML.CreateElement("PrivateKey");
+            PrivText.InnerText = privatekey;
+            PrivateKeyXML.DocumentElement.AppendChild(PrivText);
+            privkey.Text = PrivateKeyXML.OuterXml;
             SelfSessionID.Text = Math.Abs(pubkey.Text.GetHashCode()).ToString();
         }
         private void EncryptButton_Click(object sender, EventArgs e)
