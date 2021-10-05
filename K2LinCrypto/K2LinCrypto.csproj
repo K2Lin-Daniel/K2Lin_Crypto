@@ -110,6 +110,8 @@
   <ItemGroup>
     <Content Include="data-encryption.ico" />
     <Content Include="Graphicloads-Folded-Unlock-folded.ico" />
+    <None Include="Resources\Encryption.png" />
+    <None Include="Resources\Decryption.png" />
     <None Include="Resources\K2Lin Cryptography.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

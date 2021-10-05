@@ -132,9 +132,6 @@
   <data name="label8.Text" xml:space="preserve">
     <value>要解密的文本</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Decryption</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>加密文本</value>
   </data>
@@ -143,9 +140,6 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>要加密的文本</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Encryption</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>您的公钥</value>

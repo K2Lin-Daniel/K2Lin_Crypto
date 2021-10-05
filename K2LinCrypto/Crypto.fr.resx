@@ -126,9 +126,6 @@
   <data name="generate.Text" xml:space="preserve">
     <value>Générez une paire de clés</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Chiffrement</value>
-  </data>
   <data name="EncryptButton.Text" xml:space="preserve">
     <value>chiffrement!</value>
   </data>
@@ -140,9 +137,6 @@
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Texte crypté</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Décryptage</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Le texte à décrypter</value>

@@ -132,8 +132,8 @@ namespace K2LinCrypto
                 // Do something when CheckBox is checked  
                 pictureBox1.Visible = false;
                 pictureBox2.Visible = true;
-                label7.Visible = true;
-                label3.Visible = false;
+                DecryptionText.Visible = true;
+                EncryptionText.Visible = false;
                 label8.Visible = true;
                 label4.Visible = false;
                 label5.Visible = false;
@@ -156,8 +156,8 @@ namespace K2LinCrypto
                 // Do something here when CheckBox is not checked  
                 pictureBox1.Visible = true;
                 pictureBox2.Visible = false;
-                label7.Visible = false;
-                label3.Visible = true;
+                DecryptionText.Visible = false;
+                EncryptionText.Visible = true;
                 label8.Visible = false;
                 label4.Visible = true;
                 label5.Visible = true;

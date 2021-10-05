@@ -63,6 +63,26 @@ namespace K2LinCrypto.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Decryption {
+            get {
+                object obj = ResourceManager.GetObject("Decryption", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Encryption {
+            get {
+                object obj = ResourceManager.GetObject("Encryption", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap K2Lin_Cryptography {
             get {
                 object obj = ResourceManager.GetObject("K2Lin_Cryptography", resourceCulture);

@@ -132,9 +132,6 @@
   <data name="label8.Text" xml:space="preserve">
     <value>Text to Decrypt</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Decryption</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Encrypted Text</value>
   </data>
@@ -144,9 +141,6 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Text to Encrypt</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Encryption</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>PublicKey</value>

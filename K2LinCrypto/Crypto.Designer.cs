@@ -32,7 +32,6 @@
             this.pubkey = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.generate = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.EncryptoText = new System.Windows.Forms.TextBox();
             this.EncryptButton = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,7 +39,6 @@
             this.ReceiverPublic = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.EncryptoResult = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.DecryptoText = new System.Windows.Forms.TextBox();
             this.DecryptoResult = new System.Windows.Forms.TextBox();
@@ -56,12 +54,16 @@
             this.Sel4096 = new System.Windows.Forms.RadioButton();
             this.Sel2048 = new System.Windows.Forms.RadioButton();
             this.Sel8192 = new System.Windows.Forms.RadioButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.CopyEncryptedText = new System.Windows.Forms.Button();
             this.SwapMode = new System.Windows.Forms.CheckBox();
             this.HashIDIncorrect = new System.Windows.Forms.Label();
+            this.EncryptionText = new System.Windows.Forms.PictureBox();
+            this.DecryptionText = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.EncryptionText)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecryptionText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -84,11 +86,6 @@
             this.generate.Name = "generate";
             this.generate.UseVisualStyleBackColor = true;
             this.generate.Click += new System.EventHandler(this.generate_Click);
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
             // 
             // EncryptoText
             // 
@@ -131,11 +128,6 @@
             resources.ApplyResources(this.EncryptoResult, "EncryptoResult");
             this.EncryptoResult.Name = "EncryptoResult";
             this.EncryptoResult.ReadOnly = true;
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
             // 
             // label8
             // 
@@ -229,6 +221,42 @@
             this.Sel8192.UseVisualStyleBackColor = true;
             this.Sel8192.CheckedChanged += new System.EventHandler(this.Sel8192_CheckedChanged);
             // 
+            // CopyEncryptedText
+            // 
+            resources.ApplyResources(this.CopyEncryptedText, "CopyEncryptedText");
+            this.CopyEncryptedText.Name = "CopyEncryptedText";
+            this.CopyEncryptedText.UseVisualStyleBackColor = true;
+            this.CopyEncryptedText.Click += new System.EventHandler(this.CopyEncryptedText_Click);
+            // 
+            // SwapMode
+            // 
+            resources.ApplyResources(this.SwapMode, "SwapMode");
+            this.SwapMode.Name = "SwapMode";
+            this.SwapMode.UseVisualStyleBackColor = true;
+            this.SwapMode.CheckedChanged += new System.EventHandler(this.SwapMode_CheckedChanged);
+            // 
+            // HashIDIncorrect
+            // 
+            resources.ApplyResources(this.HashIDIncorrect, "HashIDIncorrect");
+            this.HashIDIncorrect.ForeColor = System.Drawing.Color.Red;
+            this.HashIDIncorrect.Name = "HashIDIncorrect";
+            // 
+            // EncryptionText
+            // 
+            this.EncryptionText.BackColor = System.Drawing.Color.Transparent;
+            this.EncryptionText.BackgroundImage = global::K2LinCrypto.Properties.Resources.Encryption;
+            resources.ApplyResources(this.EncryptionText, "EncryptionText");
+            this.EncryptionText.Name = "EncryptionText";
+            this.EncryptionText.TabStop = false;
+            // 
+            // DecryptionText
+            // 
+            this.DecryptionText.BackColor = System.Drawing.Color.Transparent;
+            this.DecryptionText.BackgroundImage = global::K2LinCrypto.Properties.Resources.Decryption;
+            resources.ApplyResources(this.DecryptionText, "DecryptionText");
+            this.DecryptionText.Name = "DecryptionText";
+            this.DecryptionText.TabStop = false;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
@@ -251,30 +279,12 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
-            // CopyEncryptedText
-            // 
-            resources.ApplyResources(this.CopyEncryptedText, "CopyEncryptedText");
-            this.CopyEncryptedText.Name = "CopyEncryptedText";
-            this.CopyEncryptedText.UseVisualStyleBackColor = true;
-            this.CopyEncryptedText.Click += new System.EventHandler(this.CopyEncryptedText_Click);
-            // 
-            // SwapMode
-            // 
-            resources.ApplyResources(this.SwapMode, "SwapMode");
-            this.SwapMode.Name = "SwapMode";
-            this.SwapMode.UseVisualStyleBackColor = true;
-            this.SwapMode.CheckedChanged += new System.EventHandler(this.SwapMode_CheckedChanged);
-            // 
-            // HashIDIncorrect
-            // 
-            resources.ApplyResources(this.HashIDIncorrect, "HashIDIncorrect");
-            this.HashIDIncorrect.ForeColor = System.Drawing.Color.Red;
-            this.HashIDIncorrect.Name = "HashIDIncorrect";
-            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.EncryptionText);
+            this.Controls.Add(this.DecryptionText);
             this.Controls.Add(this.HashIDIncorrect);
             this.Controls.Add(this.SwapMode);
             this.Controls.Add(this.CopyEncryptedText);
@@ -296,7 +306,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.EncryptoResult);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.ReceiverPublic);
@@ -304,13 +313,14 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.EncryptButton);
             this.Controls.Add(this.EncryptoText);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.generate);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pubkey);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
             this.Name = "Crypto";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.EncryptionText)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecryptionText)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -323,7 +333,6 @@
         private System.Windows.Forms.TextBox pubkey;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button generate;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox EncryptoText;
         private System.Windows.Forms.Button EncryptButton;
         private System.Windows.Forms.Label label4;
@@ -331,7 +340,6 @@
         private System.Windows.Forms.TextBox ReceiverPublic;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox EncryptoResult;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label8;
@@ -353,6 +361,8 @@
         private System.Windows.Forms.Button CopyEncryptedText;
         private System.Windows.Forms.CheckBox SwapMode;
         private System.Windows.Forms.Label HashIDIncorrect;
+        private System.Windows.Forms.PictureBox DecryptionText;
+        private System.Windows.Forms.PictureBox EncryptionText;
     }
 }
 

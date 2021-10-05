@@ -126,9 +126,6 @@
   <data name="generate.Text" xml:space="preserve">
     <value>Создайте пару ключей</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Шифрование</value>
-  </data>
   <data name="EncryptButton.Text" xml:space="preserve">
     <value>шифрование!</value>
   </data>
@@ -140,9 +137,6 @@
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Зашифрованный текст</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Расшифровка</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Расшифровываемый текст</value>
