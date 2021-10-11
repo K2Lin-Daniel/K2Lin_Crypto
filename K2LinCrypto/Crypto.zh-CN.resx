@@ -166,7 +166,7 @@
     <value>复制公钥</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>K2Lin Cryptography V4</value>
+    <value>K2Lin Cryptography V5</value>
   </data>
   <data name="CopyEncryptedText.Text" xml:space="preserve">
     <value>复制加密文本</value>
@@ -176,5 +176,17 @@
   </data>
   <data name="HashIDIncorrect.Text" xml:space="preserve">
     <value>唯一ID 与您的私钥不匹配 请重新加密</value>
+  </data>
+  <data name="SaveKeyPair.Text" xml:space="preserve">
+    <value>保存密钥对</value>
+  </data>
+  <data name="ReadKeyPair.Text" xml:space="preserve">
+    <value>读取密钥对</value>
+  </data>
+  <data name="SaveXML.Title" xml:space="preserve">
+    <value>选择 XML 文件以保存密钥对</value>
+  </data>
+  <data name="ReadXML.Title" xml:space="preserve">
+    <value>选择 XML 文件以读取密钥对</value>
   </data>
 </root>

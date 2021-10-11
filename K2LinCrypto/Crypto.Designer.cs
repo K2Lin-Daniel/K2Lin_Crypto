@@ -62,6 +62,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ReadXML = new System.Windows.Forms.OpenFileDialog();
+            this.SaveXML = new System.Windows.Forms.SaveFileDialog();
+            this.SaveKeyPair = new System.Windows.Forms.Button();
+            this.ReadKeyPair = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.EncryptionText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DecryptionText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -260,7 +264,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::K2LinCrypto.Properties.Resources.K2Lin_Cryptography;
+            this.pictureBox3.BackgroundImage = global::K2LinCrypto.Properties.Resources.K2Lin_crypto_XML;
             resources.ApplyResources(this.pictureBox3, "pictureBox3");
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.TabStop = false;
@@ -279,10 +283,39 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // ReadXML
+            // 
+            this.ReadXML.DefaultExt = "xml";
+            this.ReadXML.InitialDirectory = "%USERPROFILE%\\Desktop";
+            resources.ApplyResources(this.ReadXML, "ReadXML");
+            // 
+            // SaveXML
+            // 
+            this.SaveXML.DefaultExt = "xml";
+            this.SaveXML.DereferenceLinks = false;
+            this.SaveXML.InitialDirectory = "%USERPROFILE%\\Desktop";
+            resources.ApplyResources(this.SaveXML, "SaveXML");
+            // 
+            // SaveKeyPair
+            // 
+            resources.ApplyResources(this.SaveKeyPair, "SaveKeyPair");
+            this.SaveKeyPair.Name = "SaveKeyPair";
+            this.SaveKeyPair.UseVisualStyleBackColor = true;
+            this.SaveKeyPair.Click += new System.EventHandler(this.SaveKeyPair_Click);
+            // 
+            // ReadKeyPair
+            // 
+            resources.ApplyResources(this.ReadKeyPair, "ReadKeyPair");
+            this.ReadKeyPair.Name = "ReadKeyPair";
+            this.ReadKeyPair.UseVisualStyleBackColor = true;
+            this.ReadKeyPair.Click += new System.EventHandler(this.ReadKeyPair_Click);
+            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ReadKeyPair);
+            this.Controls.Add(this.SaveKeyPair);
             this.Controls.Add(this.EncryptionText);
             this.Controls.Add(this.DecryptionText);
             this.Controls.Add(this.HashIDIncorrect);
@@ -317,6 +350,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pubkey);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Crypto";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.EncryptionText)).EndInit();
@@ -363,6 +397,10 @@
         private System.Windows.Forms.Label HashIDIncorrect;
         private System.Windows.Forms.PictureBox DecryptionText;
         private System.Windows.Forms.PictureBox EncryptionText;
+        private System.Windows.Forms.OpenFileDialog ReadXML;
+        private System.Windows.Forms.SaveFileDialog SaveXML;
+        private System.Windows.Forms.Button SaveKeyPair;
+        private System.Windows.Forms.Button ReadKeyPair;
     }
 }
 
