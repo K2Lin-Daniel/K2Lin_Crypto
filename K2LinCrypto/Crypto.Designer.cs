@@ -66,6 +66,7 @@
             this.SaveXML = new System.Windows.Forms.SaveFileDialog();
             this.SaveKeyPair = new System.Windows.Forms.Button();
             this.ReadKeyPair = new System.Windows.Forms.Button();
+            this.GenerateAES_KEY = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.EncryptionText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DecryptionText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -310,10 +311,18 @@
             this.ReadKeyPair.UseVisualStyleBackColor = true;
             this.ReadKeyPair.Click += new System.EventHandler(this.ReadKeyPair_Click);
             // 
+            // GenerateAES_KEY
+            // 
+            resources.ApplyResources(this.GenerateAES_KEY, "GenerateAES_KEY");
+            this.GenerateAES_KEY.Name = "GenerateAES_KEY";
+            this.GenerateAES_KEY.UseVisualStyleBackColor = true;
+            this.GenerateAES_KEY.Click += new System.EventHandler(this.GenerateAES_KEY_Click);
+            // 
             // Crypto
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.GenerateAES_KEY);
             this.Controls.Add(this.ReadKeyPair);
             this.Controls.Add(this.SaveKeyPair);
             this.Controls.Add(this.EncryptionText);
@@ -401,6 +410,7 @@
         private System.Windows.Forms.SaveFileDialog SaveXML;
         private System.Windows.Forms.Button SaveKeyPair;
         private System.Windows.Forms.Button ReadKeyPair;
+        private System.Windows.Forms.Button GenerateAES_KEY;
     }
 }
 

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>K2Lin Cryptography V5</value>
+    <value>K2Lin Cryptography V5.1</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Ваш открытый ключ</value>
@@ -188,5 +188,8 @@
   </data>
   <data name="ReadKeyPair.Text" xml:space="preserve">
     <value>Прочитать пару ключей</value>
+  </data>
+  <data name="GenerateAES_KEY.Text" xml:space="preserve">
+    <value>Сгенерировать случайный ключ</value>
   </data>
 </root>

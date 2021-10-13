@@ -167,7 +167,7 @@
     <value>Copy PublicKey</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>K2Lin Cryptography V5</value>
+    <value>K2Lin Cryptography V5.1</value>
   </data>
   <data name="CopyEncryptedText.Text" xml:space="preserve">
     <value>Copy
@@ -190,5 +190,8 @@ Encrypted Text</value>
   </data>
   <data name="ReadXML.Title" xml:space="preserve">
     <value>Select the XML file to load the key pair</value>
+  </data>
+  <data name="GenerateAES_KEY.Text" xml:space="preserve">
+    <value>Generate random key</value>
   </data>
 </root>
